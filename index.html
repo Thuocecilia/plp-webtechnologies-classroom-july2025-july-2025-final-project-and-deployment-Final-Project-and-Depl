@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>internshala</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link JS -->
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">skill up</h1>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="hero" id="home">
+        <h2>Secure internship opportunities globally</h2>
+        <p>
+            using your skill up check out for suitable 
+            opportunities matching your qualifications
+        </p>
+        <button onclick="scrollToInfo()">Learn More</button>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info" id="info">
+        <h3>>What is SkillUp?</h3>
+        <p>
+            SkillUp is a platform that helps students and young professionals discover exciting internship opportunities. 
+    Our goal is to connect you with companies, mentors, and real-world projects so you can gain hands-on experience, 
+    grow your skills, and kickstart your career with confidence.
+        </p>
+        <div class="slider">
+            <img src="images/c:\Users\Admin\Downloads\Explore Internship Opportunities Design (5).png" class="slide active" alt="internship opportunities advertisement">
+            <img src="images/c:\Users\Admin\Downloads\ChatGPT Image Sep 22, 2025, 04_23_40 PM.png" class="slide" alt="internship opportunities advertisement">
+            <img src="images/c:\Users\Admin\Downloads\ChatGPT Image Sep 22, 2025, 04_23_18 PM.png" class="slide" alt="internship opportunities advertisement">
+        </div>
+    </section>
+
+   <!-- About Section -->
+<section class="about" id="about">
+    <h2>About SkillUp</h2>
+    <p>
+        SkillUp is a platform designed to bridge the gap between education and real-world experience. 
+        We help students and young professionals find internship opportunities that match their skills and career goals.
+    </p>
+
+    <h3>What We Offer:</h3>
+    <ul>
+        <li>Access to verified internship opportunities</li>
+        <li>Mentorship and career guidance from industry experts</li>
+        <li>Skill-building resources to boost employability</li>
+        <li>A supportive community of learners and professionals</li>
+    </ul>
+
+    <h3>Why Choose SkillUp?</h3>
+    <p>
+        Our platform makes it easier for you to gain hands-on experience, build a strong professional network, 
+        and prepare for a successful career – all in one place.
+    </p>
+</section>
+
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 skill up</p>
+    </footer>
+</body>
+
+</html>
